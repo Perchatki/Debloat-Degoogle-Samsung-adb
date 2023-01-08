@@ -5,7 +5,7 @@ for some reason accessibility package is uninstalled, may be I'm blind
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
-paste theese commands in adb shell:
+go to readme.md raw mode and paste these commands in adb shell:
 
 pm uninstall -k --user 0 com.amazon.fv
 pm uninstall -k --user 0 com.amazon.kindle
