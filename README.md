@@ -1,16 +1,16 @@
 # Debloat-Degoogle-Samsung-Galaxy-S10e
 
 Known bugs:
--for some reason samsung accessibility package is uninstalled, may be I'm blind. after reinstallation it is somewhat operational(no unknown problems for now)
--at least some nfc apps seem to don't work, but passes nfc check app
--to use bxActions you will need to reinstall Bixby Voice(after setting up bxActions you can disable it)
--microsoft launcher and swiftkey sign in failure
--sound quality and effects button in sound and vibration doesn't work
+<br />-for some reason samsung accessibility package is uninstalled, may be I'm blind. after reinstallation it is somewhat operational(no unknown problems for now)
+<br />-at least some nfc apps seem to don't work, but passes nfc check app
+<br />-to use bxActions you will need to reinstall Bixby Voice(after setting up bxActions you can disable it)
+<br />-microsoft launcher and swiftkey sign in failure
+<br />-sound quality and effects button in sound and vibration doesn't work
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
 
-go to readme.md raw mode and paste these commands in adb shell:
+paste these commands in adb shell:
 
 pm uninstall -k --user 0 com.amazon.fv
 pm uninstall -k --user 0 com.amazon.kindle
