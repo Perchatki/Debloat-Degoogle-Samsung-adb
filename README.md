@@ -5,6 +5,7 @@ Known bugs:
 -at least some nfc apps seem to don't work, but passes nfc check app
 -to use bxActions you will need to reinstall Bixby Voice(after setting up bxActions you can disable it)
 -microsoft launcher and swiftkey sign in failure
+-sound quality and effects button in sound and vibration doesn't work
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
