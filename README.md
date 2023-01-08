@@ -4,8 +4,10 @@ Known bugs:
 <br />-for some reason samsung accessibility package is uninstalled, may be I'm blind. after reinstallation it is somewhat operational(no unknown problems for now)
 <br />-at least some nfc apps seem to don't work, but passes nfc check app
 <br />-to use bxActions you will need to reinstall Bixby Voice(after setting up bxActions you can disable it)
-<br />-microsoft launcher and swiftkey sign in failure
 <br />-sound quality and effects button in sound and vibration doesn't work
+
+Fixed:
+<br />-microsoft launcher and swiftkey sign in failure
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
