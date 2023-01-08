@@ -341,3 +341,4 @@ pm uninstall --user 0 com.google.android.partnersetup
 pm uninstall --user 0 com.google.android.backuptransport
 pm uninstall --user 0 com.google.android.apps.tachyon
 pm uninstall -k --user 0 com.android.vending
+https://raw.githubusercontent.com/hitin4teen/Debloat-Degoogle-Samsung-adb/main/N5boZVr2FQ8.jpg
