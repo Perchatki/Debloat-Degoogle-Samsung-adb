@@ -110,7 +110,6 @@ pm uninstall -k --user 0 com.samsung.android.app.notes
 pm uninstall -k --user 0 com.samsung.android.app.notes
 pm uninstall -k --user 0 com.samsung.android.app.reminder
 pm uninstall -k --user 0 com.samsung.android.app.routines
-pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
 pm uninstall -k --user 0 com.samsung.android.app.settings.bixby
 pm uninstall -k --user 0 com.samsung.android.app.sharelive
 pm uninstall -k --user 0 com.samsung.android.app.simplesharing
@@ -349,6 +348,11 @@ pm uninstall --user 0 com.google.android.backuptransport
 pm uninstall --user 0 com.google.android.apps.tachyon
 pm uninstall -k --user 0 com.android.vending
 
+Only uninstall if you will use something other than it:
+samsung keyboard
+pm uninstall -k --user 0 com.samsung.android.honeyboard
+samsung browser
+pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
 
 final result
 ![alt text](https://raw.githubusercontent.com/hitin4teen/Debloat-Degoogle-Samsung-adb/main/N5boZVr2FQ8.jpg)
