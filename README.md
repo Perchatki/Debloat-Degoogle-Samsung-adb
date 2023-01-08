@@ -344,6 +344,7 @@ paste these commands in adb shell:
 Only uninstall if you will use something other than it:
 <br />Samsung keyboard
 > <br />pm uninstall -k --user 0 com.samsung.android.honeyboard
+
 <br />Samsung browser
 > <br />pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
 
@@ -351,6 +352,7 @@ might cause problems:
 <br />Samsung pay(may be cause of nfc not working in some apps, haven't tested this enough yet to make conclusion)
 > <br />pm uninstall -k --user 0 com.samsung.android.spay
 > <br />pm uninstall -k --user 0 com.samsung.android.spayfw
+
 <br />Bixby(removing causes a third-party app bxActions used for bixby button remapping to not work)
 > <br />pm uninstall -k --user 0 com.samsung.android.bixby.agent
 > <br />pm uninstall -k --user 0 com.samsung.android.bixby.agent.dummy
@@ -360,6 +362,7 @@ might cause problems:
 > <br />pm uninstall -k --user 0 com.samsung.android.bixby.voiceinput
 > <br />pm uninstall -k --user 0 com.samsung.android.bixby.wakeup
 > <br />pm uninstall -k --user 0 com.samsung.android.bixbyvision.framework
+
 <br />Device care(removing causes power saving option not available through settings)
 > <br />pm uninstall -k --user 0 com.samsung.android.lool
 
