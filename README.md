@@ -332,7 +332,6 @@ paste these commands in adb shell:
 > <br />pm uninstall --user 0 com.google.android.music
 > <br />pm uninstall --user 0 com.google.android.videos
 > <br />pm uninstall --user 0 com.google.android.feedback
-> <br />pm uninstall --user 0 com.google.android.webview
 > <br />pm uninstall --user 0 com.google.android.apps.docs.oem
 > <br />pm uninstall --user 0 com.google.android.tts
 > <br />pm uninstall --user 0 com.google.android.configupdater
