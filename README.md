@@ -325,7 +325,6 @@ pm uninstall -k --user 0 com.tv.peel.samsung.app
 pm uninstall -k --user 0 com.vlingo.midas
 pm uninstall -k --user 0 com.wssnps
 pm uninstall -k --user 0 com.yelp.android.samsungedge
-pm uninstall -k --user 0 com.samsung.android.lool
 
 pm uninstall --user 0 com.android.chrome
 pm uninstall --user 0 com.google.android.calendar
@@ -354,6 +353,8 @@ samsung keyboard
 pm uninstall -k --user 0 com.samsung.android.honeyboard
 samsung browser
 pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
+Device care(removing causes power saving option not available through settings)
+pm uninstall -k --user 0 com.samsung.android.lool
 
 final result
 ![alt text](https://raw.githubusercontent.com/hitin4teen/Debloat-Degoogle-Samsung-adb/main/N5boZVr2FQ8.jpg)
