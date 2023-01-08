@@ -1,7 +1,7 @@
 # Debloat-Degoogle-Samsung-Galaxy-S10e
 
 Known bugs:
-for some reason accessibility package is uninstalled, may be I'm blind
+for some reason samsung accessibility package is uninstalled, may be I'm blind. after reinstallation it is somewhat operational(no unknown problems for now)
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
