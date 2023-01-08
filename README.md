@@ -2,7 +2,7 @@
 
 Known bugs:
 -for some reason samsung accessibility package is uninstalled, may be I'm blind. after reinstallation it is somewhat operational(no unknown problems for now)
--at least some nfc apps seem to don't work
+-at least some nfc apps seem to don't work, but passes nfc check app
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
