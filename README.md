@@ -351,6 +351,18 @@ Only uninstall if you will use something other than it:
 <br />Samsung mail
 > <br />pm uninstall --user 0 com.samsung.android.email.provider
 
+<br />Samsung gallery
+> <br />pm uninstall --user 0 com.sec.android.gallery3d
+
+<br />Samsung contacts
+> <br />pm uninstall --user 0 com.samsung.android.app.contacts
+
+<br />Samsung phone
+> <br />pm uninstall --user 0 com.samsung.android.dialer
+
+<br />One UI home(Samsung launcher) REMOVES ABILITY TO VIEW RECENT APPS SCREEN AND REMOVES HOME GESTURE
+> <br />pm uninstall --user 0 com.sec.android.app.launcher
+
 might cause problems:
 <br />Samsung pay(may be cause of nfc not working in some apps, haven't tested this enough yet to make conclusion)
 > <br />pm uninstall --user 0 com.samsung.android.spay
