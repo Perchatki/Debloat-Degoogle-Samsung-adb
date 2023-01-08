@@ -236,7 +236,6 @@ paste these commands in adb shell:
 > <br />pm uninstall --user 0 com.sec.android.app.ringtoneBR
 > <br />pm uninstall --user 0 com.sec.android.app.safetyassurance
 > <br />pm uninstall --user 0 com.sec.android.app.samsungapps
-> <br />pm uninstall --user 0 com.sec.android.app.sbrowser
 > <br />pm uninstall --user 0 com.sec.android.app.servicemodeapp
 > <br />pm uninstall --user 0 com.sec.android.app.shealth
 > <br />pm uninstall --user 0 com.sec.android.app.shealth
@@ -346,6 +345,7 @@ Only uninstall if you will use something other than it:
 
 <br />Samsung browser
 > <br />pm uninstall --user 0 com.samsung.android.app.sbrowseredge
+> <br />pm uninstall --user 0 com.sec.android.app.sbrowser
 
 might cause problems:
 <br />Samsung pay(may be cause of nfc not working in some apps, haven't tested this enough yet to make conclusion)
