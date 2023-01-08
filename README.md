@@ -360,8 +360,6 @@ Only uninstall if you will use something other than it:
 <br />Samsung phone
 > <br />pm uninstall --user 0 com.samsung.android.dialer
 
-<br />One UI home(Samsung launcher) REMOVES ABILITY TO VIEW RECENT APPS SCREEN AND REMOVES HOME GESTURE
-> <br />pm uninstall --user 0 com.sec.android.app.launcher
 
 might cause problems:
 <br />Samsung pay(may be cause of nfc not working in some apps, haven't tested this enough yet to make conclusion)
@@ -380,6 +378,9 @@ might cause problems:
 
 <br />Device care(removing causes power saving option not available through settings)
 > <br />pm uninstall --user 0 com.samsung.android.lool
+
+<br />One UI home(Samsung launcher) removes ability to look at recent apps and disables home gesture(go back gesture works fine)
+> <br />pm uninstall --user 0 com.sec.android.app.launcher
 
 final result
 ![alt text](https://raw.githubusercontent.com/hitin4teen/Debloat-Degoogle-Samsung-adb/main/N5boZVr2FQ8.jpg)
