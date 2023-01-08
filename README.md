@@ -1,4 +1,7 @@
 # Debloat-Degoogle-Samsung-Galaxy-S10e
+I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
+Applications install after debloating is possible through adb install command.
+paste theese commands in adb shell:
 
 pm uninstall -k --user 0 com.amazon.fv
 pm uninstall -k --user 0 com.amazon.kindle
@@ -342,4 +345,6 @@ pm uninstall --user 0 com.google.android.backuptransport
 pm uninstall --user 0 com.google.android.apps.tachyon
 pm uninstall -k --user 0 com.android.vending
 
+
+final result
 ![alt text](https://raw.githubusercontent.com/hitin4teen/Debloat-Degoogle-Samsung-adb/main/N5boZVr2FQ8.jpg)
