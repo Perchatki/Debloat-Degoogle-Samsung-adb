@@ -142,7 +142,6 @@ paste these commands in adb shell:
 > <br />pm uninstall --user 0 com.samsung.android.dlp.service
 > <br />pm uninstall --user 0 com.samsung.android.drivelink.stub
 > <br />pm uninstall --user 0 com.samsung.android.easysetup
-> <br />pm uninstall --user 0 com.samsung.android.email.provider
 > <br />pm uninstall --user 0 com.samsung.android.fmm
 > <br />pm uninstall --user 0 com.samsung.android.game.gamehome
 > <br />pm uninstall --user 0 com.samsung.android.game.gametools
@@ -348,6 +347,9 @@ Only uninstall if you will use something other than it:
 <br />Samsung browser
 > <br />pm uninstall --user 0 com.samsung.android.app.sbrowseredge
 > <br />pm uninstall --user 0 com.sec.android.app.sbrowser
+
+<br />Samsung mail
+> <br />pm uninstall --user 0 com.samsung.android.email.provider
 
 might cause problems:
 <br />Samsung pay(may be cause of nfc not working in some apps, haven't tested this enough yet to make conclusion)
