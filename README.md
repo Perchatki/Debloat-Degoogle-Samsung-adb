@@ -1,7 +1,8 @@
 # Debloat-Degoogle-Samsung-Galaxy-S10e
 
 Known bugs:
-for some reason samsung accessibility package is uninstalled, may be I'm blind. after reinstallation it is somewhat operational(no unknown problems for now)
+-for some reason samsung accessibility package is uninstalled, may be I'm blind. after reinstallation it is somewhat operational(no unknown problems for now)
+-at least some nfc apps seem to don't work
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
@@ -173,9 +174,6 @@ pm uninstall -k --user 0 com.samsung.android.service.livedrawing
 pm uninstall -k --user 0 com.samsung.android.service.peoplestripe
 pm uninstall -k --user 0 com.samsung.android.service.travel
 pm uninstall -k --user 0 com.samsung.android.setting.multisound
-pm uninstall -k --user 0 com.samsung.android.spay
-pm uninstall -k --user 0 com.samsung.android.spay
-pm uninstall -k --user 0 com.samsung.android.spayfw
 pm uninstall -k --user 0 com.samsung.android.spdfnote
 pm uninstall -k --user 0 com.samsung.android.stickercenter
 pm uninstall -k --user 0 com.samsung.android.stickerplugin
@@ -355,6 +353,10 @@ samsung browser
 pm uninstall -k --user 0 com.samsung.android.app.sbrowseredge
 Device care(removing causes power saving option not available through settings)
 pm uninstall -k --user 0 com.samsung.android.lool
+
+samsung pay
+pm uninstall -k --user 0 com.samsung.android.spay
+pm uninstall -k --user 0 com.samsung.android.spayfw
 
 final result
 ![alt text](https://raw.githubusercontent.com/hitin4teen/Debloat-Degoogle-Samsung-adb/main/N5boZVr2FQ8.jpg)
