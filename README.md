@@ -5,7 +5,7 @@ Known bugs:
 <br />-at least some nfc apps seem to don't work, but passes nfc check app
 <br />-to use bxActions you will need to reinstall Bixby Voice(after setting up bxActions you can disable it)
 <br />-sound quality and effects button in sound and vibration doesn't work
-
+<br />-gps seems to work very unstable
 Fixed:
 <br />-microsoft launcher and swiftkey sign in failure
 
