@@ -8,6 +8,7 @@ Known bugs:
 <br />-gps seems to work very unstable
 Fixed:
 <br />-microsoft launcher and swiftkey sign in failure
+<br />notifications don't work for most installed apps 
 
 I have tried to delete every non crucial application, excluding those, that are required for booting device. Haven't yet thoroughly tested, use at your own risk. 
 Applications install after debloating is possible through adb install command.
@@ -367,7 +368,7 @@ might cause problems:
 > <br />pm uninstall --user 0 com.samsung.android.spayfw
 
 <br />Bixby(removing causes a third-party app bxActions used for bixby button remapping to not work)
-> <br />pm uninstall --user 0 com.samsung.android.bixby.agent
+> <br />pm TVuninstall --user 0 com.samsung.android.bixby.agent
 > <br />pm uninstall --user 0 com.samsung.android.bixby.agent.dummy
 > <br />pm uninstall --user 0 com.samsung.android.bixby.es.globalaction
 > <br />pm uninstall --user 0 com.samsung.android.bixby.plmsync
